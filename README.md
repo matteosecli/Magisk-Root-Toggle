@@ -1,4 +1,5 @@
 # Magisk Root Toggle
+![Icon](magisk_root_toggle.png)
 
 
 ##Description
