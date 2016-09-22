@@ -33,9 +33,8 @@ There is also a great tool called [Automagisk](http://www.androidpolice.com/2016
 - Now, open Custom Quick Settings. If you have other custom tiles, **delete them**. This is important, as the tile we're going to create **has to be the first one created**. Then, create a new tile (allow forever superuser permissions to Custom Quick Settings if asked). Use the following settings:
     - The Title: "Root".
     - The Icon: Choose whichever icon you like from "Built in icons"
-    - The Click Action: Choose "Launch App -> Magisk Root Toggle"
-    Then press the confirmation icon to save and exit the app.
-- A new tile should have appeared in your menu, named "Root". Tap on it and allow forever superuser permissions to Magisk Root Toggle if asked.
+    - The Click Action: Choose "Launch App -> Magisk Root Toggle". Then press the confirmation icon to save and exit the app.
+- A new tile should have appeared in your menu, named "Root". Tap on it and allow forever superuser permissions to **Magisk Root Toggle** if asked.
 
 That's it! You've done it! 😄
 If root is active the tile should be white-colored, whereas if root is not active the tile should be gray-colored.
@@ -44,7 +43,7 @@ If root is active the tile should be white-colored, whereas if root is not activ
 ## Known issues
 
 - After using **Magisk Root Toggle**, you can of course use Magisk Manager to check root's status. Beware that if Magisk Manager was still running in backgound while you used **Magisk Root Toggle**, then it will report a **wrong** root status. To be sure, close Magisk Manager (via the "recent apps" screen) and open it again. After you use it, **close it** to avoid wrong reports. There is nothing I can do about this.
-- The tile is not changing color (white/gray). This means that there are issue in connecting the tasker app (which changes its color after enabling/disabling root) to the tile itself. It could be that the tile was not assigned the "ID 0" because there were already other tiles. Repeat the procedure with Custom Quick Settings and make sure it's the **first** tile you create (so that it's assigned the ID 0). If the tile is not changing colr, this **doesn't mean** that **Magisk Root Toggle** is not working! It's indeed working, but it's not changing the tile's color. Note that since this is readed as a "failure", Tasker's monitor could still be running. I'll investigate further and fix this issue in the next version by letting the task continue even if it spits an error about the tile.
+- The tile is not changing color (white/gray). This means that there are issues in connecting the tasker app (which changes its color after enabling/disabling root) to the tile itself. It could be that the tile was not assigned the "ID 0" because there were already other tiles. Repeat the procedure with Custom Quick Settings and make sure it's the **first** tile you create (so that it's assigned the ID 0). If the tile is not changing colr, this **doesn't mean** that **Magisk Root Toggle** is not working! It's indeed working, but it's not changing the tile's color. Note that since this is readed as a "failure", Tasker's monitor could still be running. I'll investigate further and fix this issue in the next version by letting the task continue even if it spits an error about the tile.
 
 
 ## Support
