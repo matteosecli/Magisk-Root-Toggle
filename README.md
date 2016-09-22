@@ -34,7 +34,7 @@ Support for QuickTask is coming in v1.4, so there is really just one version. Fo
 ## Installation
 
 - Be sure to have "Unknown sources" enabled. To enable then, just go to "Settings -> Security -> Unknown sources" and toggle on.
-- Download the most current APK from my GitHub ([link to the latest version](https://github.com/matteosecli/magisk-root-toggle/releases/latest)).
+- Download the most recent APK from my GitHub ([link to the latest version](https://github.com/matteosecli/magisk-root-toggle/releases/latest)).
 - Install it (you may need to open it via a 3rd part file explorer such as X-plore, ES, FX, or whichever you like).
 - Now, open **Custom Quick Settings** (if instead you are using QuickTask, jump at the next point). If you have other custom tiles, **delete them**. This is important, as the tile we're going to create **has to be the first one created** (i.e., it has to have internal name "CUSTOMTILE0"). Then, create a new tile (allow forever superuser permissions to Custom Quick Settings if asked). Use the following settings:
     - The Title: "Root".
