@@ -13,7 +13,7 @@
 
 ## Target users
 
-This app is made for **Android 6** users (it should also work in** Android 5** and maybe even below, who knows).
+This app is made for **Android 6** users (it should also work in **Android 5** and maybe even below, who knows).
 If you are on **Android 7**, then I suggest to use [Magisk Quick Toggle](https://play.google.com/store/apps/details?id=me.bpear.magiskquicktoggle) which is much better than my own app.
 
 There is also a great tool called [Automagisk](http://www.androidpolice.com/2016/09/18/automagisk-allows-root-users-play-pokemon-go-use-android-pay-without-constantly-toggling-root-off/) that should enable/disable root when you open an app that doesn't like root. It does work with Android Pay and Pokémon Go, but it doesn't with my banking app. So I still needed a quick way to enable/disable root at need; that's also why I made this app.
