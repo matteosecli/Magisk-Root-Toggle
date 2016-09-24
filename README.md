@@ -73,7 +73,7 @@ So, basically:
     - Tile label: "Root"
     - Do not care about the icon, it will be automatically changed by **Magisk Root Toggle**.
 - A new tile should have appeared in your menu, named "Root". Tap on it and allow forever superuser permissions to **Magisk Root Toggle** if asked.
-- If you are using the QuickTask version and the first tap on the tile does not do anything, open **Magisk Root Toggle** from the app drawer. It should be necessary only for the first time.
+- \[QT\] If you are using the QuickTask version and the first tap on the tile does not do anything, open **Magisk Root Toggle** from the app drawer. It should be necessary only for the first time.
 
 That's it! You've done it! 😄
 If root is active the tile should be white-colored, whereas if root is not active the tile should be gray-colored.
