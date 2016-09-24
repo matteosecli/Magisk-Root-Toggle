@@ -93,7 +93,7 @@ No support here, I'm sorry. This is just a fun project and I don't really want t
 If you find the app useful and you want to support me (I'm a student), you can make me happy by just [buying me a coffee](https://paypal.me/matteosecli)! 😊
 
 
-## Source code.
+## Source code
 
 The code is under GPL-3.0. The sources are mainly two:
 
