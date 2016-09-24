@@ -1,15 +1,67 @@
 <TaskerData sr="" dvi="1" tv="4.8u5m">
-	<Task sr="task5">
+	<Profile sr="prof12" ve="2">
+		<cdate>1474571701359</cdate>
+		<edate>1474714724408</edate>
+		<id>12</id>
+		<mid0>10</mid0>
+		<nme>QuickTask Listener</nme>
+		<Event sr="con0" ve="2">
+			<code>1565789502</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.quicktask.extra.EVENTS>1</com.balda.quicktask.extra.EVENTS>
+					<com.balda.quicktask.extra.EVENTS-type>java.lang.Integer</com.balda.quicktask.extra.EVENTS-type>
+					<com.balda.quicktask.extra.INT_VERSION_CODE>19</com.balda.quicktask.extra.INT_VERSION_CODE>
+					<com.balda.quicktask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.quicktask.extra.INT_VERSION_CODE-type>
+					<com.balda.quicktask.extra.OPERATION>0</com.balda.quicktask.extra.OPERATION>
+					<com.balda.quicktask.extra.OPERATION-type>java.lang.Integer</com.balda.quicktask.extra.OPERATION-type>
+					<com.balda.quicktask.extra.TILES>&lt;StringArrayList sr=""&gt;&lt;_arrlst_com.balda.quicktask.extra.TILES0&gt;magiskroottoggletile&lt;/_arrlst_com.balda.quicktask.extra.TILES0&gt;&lt;/StringArrayList&gt;</com.balda.quicktask.extra.TILES>
+					<com.balda.quicktask.extra.TILES-type>java.util.ArrayList</com.balda.quicktask.extra.TILES-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>magiskroottoggletile</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%qtname
+Tile name
+Name of tile pressed&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%qtevent
+Tile name
+Event: click or long click&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%qtstatus
+Current tile status
+It can be: Enabled, Disabled&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.quicktask</Str>
+			<Str sr="arg2" ve="3">com.balda.quicktask.ui.QueryTileActivity</Str>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1474571395592</cdate>
+		<name>Magisk Root Toggle</name>
+		<pids>12</pids>
+		<tids>10</tids>
+		<Kid sr="Kid">
+			<launchID>10</launchID>
+			<pkg>io.github.matteosecli.app.magiskroottoggle</pkg>
+			<vnme>1.4</vnme>
+			<vnum>4</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<uri>content://com.android.providers.media.documents/document/image%3A1890</uri>
+		</Img>
+	</Project>
+	<Task sr="task10">
 		<cdate>1474487060628</cdate>
-		<edate>1474714996596</edate>
-		<id>5</id>
-		<nme>Magisk Root Toggle (CQS)</nme>
+		<edate>1474714829000</edate>
+		<id>10</id>
+		<nme>Magisk Root Toggle (No Kill)</nme>
 		<pri>100</pri>
 		<Kid sr="Kid">
 			<launchID>5</launchID>
-			<pkg>io.github.matteosecli.app.magiskroottoggle.onlycqs</pkg>
+			<pkg>io.github.matteosecli.magiskroottoggle</pkg>
 			<vnme>1.4</vnme>
-			<vnum>10</vnum>
+			<vnum>8</vnum>
 		</Kid>
 		<Action sr="act0" ve="7">
 			<code>815</code>
@@ -93,10 +145,6 @@
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>38</code>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>139</code>
-			<label>Disable Tasker's monitor. Useful when packaging as app in order to save resources and battery. REMOVE this action if the tile is connected to this action and not to the app, otherwise successive tappings won't work.</label>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
