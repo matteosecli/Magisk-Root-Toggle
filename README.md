@@ -57,7 +57,7 @@ There is also a great tool called [Automagisk](http://www.androidpolice.com/2016
 So, basically:
 
 - If you want to use QuickTask or you are not sure, then download the version "**Magisk Root Toggle**".
-- If you want to use Custom Quick Settings, download the version **Magisk Root Toggle (CQS)**.
+- If you want to use Custom Quick Settings, download the version "**Magisk Root Toggle (CQS)**".
 
 ## Installation
 
